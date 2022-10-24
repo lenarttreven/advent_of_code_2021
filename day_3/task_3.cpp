@@ -58,7 +58,6 @@ int part_one(string *filename) {
     return gamma_rate * epsilon_rate;
 }
 
-
 vector<vector<int>> filter_by_position(vector<vector<int>> *list_of_bits, int position, int leading_bit) {
     vector<vector<int>> filtered_bits;
     if ((*list_of_bits).size() == 1) {

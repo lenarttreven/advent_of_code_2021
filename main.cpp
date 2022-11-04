@@ -5,15 +5,13 @@
 #include "day_3/task_3.h"
 #include "day_4/task_4.h"
 #include "day_5/task_5.h"
+#include "day_6/task_6.h"
 
 using namespace std;
 
 int main() {
-    string filename = "../day_5/hydrothermal_vent.txt";
-    int result = find_overlapping_points_all(&filename);
+    string filename = "../day_6/input.txt";
+    long int result = count_fishes_fast(&filename, 256);
     cout << result << endl;
-//    for (int i = 0; i <= 4; i++){
-//        cout << i << endl;
-//    }
     return 0;
 }

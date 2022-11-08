@@ -8,15 +8,12 @@
 #include "day_6/task_6.h"
 #include "day_7/task_7.h"
 #include "day_8/task_8.h"
-#include "day_9/task_9.h"
 
 using namespace std;
 
 int main() {
-    string filename = "../day_9/input.txt";
-    int out = product_of_basins(&filename);
+    string filename = "../day_8/input.txt";
+    int out = decode(&filename);
     cout << out << endl;
-//    vector<int> myvector = {1, 2, 3, 4, 5};
-//    myvector.pop_back();
     return 0;
 }
